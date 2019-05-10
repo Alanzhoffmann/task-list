@@ -2,9 +2,9 @@
 
 namespace Tasks.Infra
 {
-    public sealed class ConnectionStrings
+    public sealed class ConnectionString
     {
-        public ConnectionStrings(IConfiguration configuration)
+        public ConnectionString(IConfiguration configuration)
         {
             Tasks = configuration.GetConnectionString("Tasks");
         }
