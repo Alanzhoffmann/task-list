@@ -1,0 +1,25 @@
+{
+	"version": "1.0",
+	"defaultProvider": "cdnjs",
+	"libraries": [
+		{
+			"library": "angular.js@1.7.8",
+			"destination": "wwwroot/libs/angular.js/",
+			"files": [
+				"angular.js",
+				"angular-animate.js",
+				"angular-aria.js",
+				"angular-messages.js",
+				"i18n/angular-locale_pt-br.js"
+			]
+		},
+		{
+			"library": "angular-material@1.1.18",
+			"destination": "wwwroot/libs/angular-material/",
+			"files": [
+				"angular-material.css",
+				"angular-material.js"
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"outputFileName": "wwwroot/js/app.min.js",
+		"inputFiles": [
+			"wwwroot/scripts"
+		],
+		"minify": {
+			"enabled": true
+		}
+	},
+	{
+		"outputFileName": "wwwroot/js/vendor.min.js",
+		"inputFiles": [
+			"wwwroot/libs/angular.js",
+			"wwwroot/libs/angular-material"
+		],
+		"minify": { "enabled": true }
+	},
+	{
+		"outputFileName": "wwwroot/css/vendor.min.css",
+		"inputFiles": [
+			"wwwroot/libs/angular-material"
+		],
+		"minify": { "enabled": true }
+	}
+]
